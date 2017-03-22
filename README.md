@@ -24,7 +24,7 @@ The function `logHit()` increments a count of total visits every time a user vis
 `logHit()` must be invoked automatically when a hit on our app is detected.
 
 ### getHits()
-The function `getHits()` that returns the total number of visits
+The function `getHits()` returns the total number of visits
 from a given number of minutes ago.
 
 ```js
