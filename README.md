@@ -8,13 +8,13 @@ To initialize a tracker, call the constructor function passing in an integer tha
 
 ```js
 let tracker = Tracker.new(1;)
-// tracker will return number of visits 1 minute ago
+// tracker will track number of visits 1 minute ago
 
 let trackerFiveMinAgo = Tracker.new(3);
-// tracker will return number of visits 3 minutes ago
+// tracker will track number of visits 3 minutes ago
 
 let trackerFiveMinAgo = Tracker.new();
-// Default: will return number of visits 5 minutes ago
+// Default: will track number of visits 5 minutes ago
 ```
 By default, a tracker will track number of visits 5 minutes ago.
 

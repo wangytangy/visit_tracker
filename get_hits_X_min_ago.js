@@ -107,14 +107,3 @@ class HitsTracker {
   }
 
 }
-
-let tracker = new HitsTracker(1);
-tracker.logHit();
-setTimeout(function () {
-  //log more hits 10 seconds later
-  tracker.logHit();
-  tracker.logHit();
-  tracker.logHit();
-  tracker.logHit();
-
-}, 1000 * 10);
