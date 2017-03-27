@@ -10,7 +10,7 @@ To initialize a tracker, call the constructor function passing in an integer tha
 let tracker = Tracker.new(1;)
 // tracker will track number of visits 1 minute ago
 
-let trackerFiveMinAgo = Tracker.new(3);
+let trackerThreeMinAgo = Tracker.new(3);
 // tracker will track number of visits 3 minutes ago
 
 let trackerFiveMinAgo = Tracker.new();
